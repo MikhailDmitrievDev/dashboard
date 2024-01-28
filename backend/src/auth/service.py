@@ -53,7 +53,7 @@ class AuthMailService(IAuthService):
     @classmethod
     def verify_password(cls, current_password: str, user_password: str):
         """
-        Verify password
+        Verify password.
 
         :param current_password: str received from the client
         :param user_password: str received from the repository
